@@ -1,30 +1,16 @@
-const reverse = xs => [...xs].reverse()
-const times = (length, f) => Array.from({
-  length
-}, f)
-const flat = xs => xs.reduce((a, b) => a.concat(b), [])
+var maxSubArray = function(nums) {
+  let maxn = -Number.MAX_VALUE;
+  let sum = 0;
 
-const sum = ns => ns.reduce((a, b) => a + b)
-const findPositiveIndex = ns => ns.findIndex(n => n > 0)
-const trimNegative = ns => ns.slice(findPositiveIndex(ns), ns.length - findPositiveIndex(reverse(ns)))
+  nums.forEach(function(item, index, array) {
+    sum += item;
 
-const getSegments = ns => flat(trimNegative(ns).map((n, i, tns) => {
-  if (tns.length === 1) {
-    return [tns]
-  }
-  const isLast = i === tns.length - 1
-  if (n <= 0 || isLast) {
-    return null
-  }
-  return times(tns.length - i - 1, (_, j) => {
-    const lastIndex = tns.length - j
-    const current = tns[lastIndex - 1]
-    const last = tns[lastIndex]
-    if (current <= 0 || last > 0) {
-      return null
-    }
-    return tns.slice(i, lastIndex)
-  })
-})).filter(x => x !== null)
+    if (sum > maxn)
+      maxn = sum;
 
-const maxSubArray = ns => Math.max(...getSegments(ns).map(sum))
+    if (sum < 0)
+      sum = 0;
+  });
+
+  return maxn;
+};
