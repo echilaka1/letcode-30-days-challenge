@@ -1,3 +1,5 @@
-LeetCode
+# 30-Day LeetCoding Challenge
 
-30 Days Code Algorithm Challenge
+- Single Number: Given a non-empty array of integers, every element appears twice except for one. Find that single one.
+
+- 
