@@ -13,3 +13,5 @@
 - Group Anagrams: Given an array of strings, group anagrams together.
 
 - Counting Elements: Given an integer array arr, count element x such that x + 1 is also in arr. If there're duplicates in arr, count them seperately.
+
+- Middle of the Linked List: Given a non-empty, singly linked list with head node head, return a middle node of linked list. If there are two middle nodes, return the second middle node.
