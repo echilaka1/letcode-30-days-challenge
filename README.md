@@ -17,3 +17,9 @@
 - Middle of the Linked List: Given a non-empty, singly linked list with head node head, return a middle node of linked list. If there are two middle nodes, return the second middle node.
 
 - Backspace String Compare: Given two strings S and T, return if they are equal when both are typed into empty text editors. # means a backspace character.
+
+- Min Stack: Design a stack that supports push, pop, top, and retrieving the minimum element in constant time.
+	- push(x) -- Push element x onto stack.
+	- pop() -- Removes the element on top of the stack.
+	- top() -- Get the top element.
+	- getMin() -- Retrieve the minimum element in the stack.
