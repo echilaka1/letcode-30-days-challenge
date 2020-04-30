@@ -75,3 +75,14 @@ For custom testing purposes you're given the binary matrix mat as input in the f
 - Subarray Sum Equals K: Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
 
 - Bitwise AND of Numbers Range: Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of all numbers in this range, inclusive.
+
+- LRU Cache: Design and implement a data structure for Least Recently Used (LRU) cache. It should support the following operations: get and put.
+	- get(key) - Get the value (will always be positive) of the key if the key exists in the cache, otherwise return -1.
+	- put(key, value) - Set or insert the value if the key is not already present. When the cache reached its capacity, it should invalidate the least recently used item before inserting a new item.
+The cache is initialized with a positive capacity.
+Follow up:
+Could you do both operations in O(1) time complexity?
+
+- Jump Game: Given an array of non-negative integers, you are initially positioned at the first index of the array. Each element in the array represents your maximum jump length at that position. Determine if you are able to reach the last index.
+
+- Longest Common Subsequence: Given two strings text1 and text2, return the length of their longest common subsequence. A subsequence of a string is a new string generated from the original string with some characters(can be none) deleted without changing the relative order of the remaining characters. (eg, "ace" is a subsequence of "abcde" while "aec" is not). A common subsequence of two strings is a subsequence that is common to both strings. If there is no common subsequence, return 0.
