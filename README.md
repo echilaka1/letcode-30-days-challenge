@@ -73,3 +73,5 @@ Submissions making more than 1000 calls to BinaryMatrix.get will be judged Wrong
 For custom testing purposes you're given the binary matrix mat as input in the following four examples. You will not have access the binary matrix directly.
 
 - Subarray Sum Equals K: Given an array of integers and an integer k, you need to find the total number of continuous subarrays whose sum equals to k.
+
+- Bitwise AND of Numbers Range: Given a range [m, n] where 0 <= m <= n <= 2147483647, return the bitwise AND of all numbers in this range, inclusive.
