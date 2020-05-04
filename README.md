@@ -90,3 +90,5 @@ Could you do both operations in O(1) time complexity?
 - Maximal Square: Given a 2D binary matrix filled with 0's and 1's, find the largest square containing only 1's and return its area.
 
 - Binary Tree Maximum Path Sum: Given a non-empty binary tree, find the maximum path sum.For this problem, a path is defined as any sequence of nodes from some starting node to any node in the tree along the parent-child connections. The path must contain at least one node and does not need to go through the root.
+
+- First Unique Number: Given a string, find the first non-repeating character in it and return it's index. If it doesn't exist, return -1.
